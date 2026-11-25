@@ -1,0 +1,17 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student Management System with web report cards (Netlify Functions + Postgres)",
+  "scripts": {
+    "dev": "netlify dev",
+    "test": "node tests/test-api.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@netlify/database": "latest",
+    "pg": "^8.13.0"
+  }
+}
